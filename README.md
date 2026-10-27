@@ -50,4 +50,4 @@ Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Google Colab
 
 ## Project Status
 
-In progress – EDA and model development.
+In progress - EDA and model development
