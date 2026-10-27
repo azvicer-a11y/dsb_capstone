@@ -10,7 +10,7 @@ The goal is to estimate property prices based on location, size, number of rooms
 
 The dataset contains 3,986 property records from different cities in Montenegro.
 
-- 1,986 real property listings
+- 1,986 real property listings collected from Realitica and Estitor (January-October 2026).
 - 2,000 simulated records
 - Data collected from Realitica and Estitor
 - Property information includes price, area, location, and number of rooms
