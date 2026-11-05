@@ -1,53 +1,38 @@
-# Valora AI– Real Estate Price Prediction in Montenegro
+## Valora AI – Project Update (November 5, 2026)
 
-## Project Overview
+### Project Progress
 
-Valora AI is a Machine Learning project focused on predicting real estate prices in Montenegro.
+I continued working on my Valora AI project, an AI tool for estimating real estate prices in Montenegro.
 
-The goal is to estimate property prices based on location, size, number of rooms, and other available features.
+The dataset currently contains 3,986 rows and 19 columns, including 1,986 real property listings and 2,000 simulated records.
 
-## Dataset
+### What I Worked On
 
-The dataset contains 3,986 property records from different cities in Montenegro.
+**1. Exploratory Data Analysis (EDA)**
+- Analyzed property prices, sizes, and locations.
+- Created graphs to better understand the dataset.
+- Checked missing values and data types.
+- Explored relationships between property features and prices.
 
-- 1,986 real property listings collected from Realitica and Estitor (January-October 2026).
-- 2,000 simulated records
-- Data collected from Realitica and Estitor
-- Property information includes price, area, location, and number of rooms
+**2. Data Preprocessing**
+- Checked the dataset structure using `df.shape` and `df.info()`.
+- Identified missing values using `df.isnull().sum()`.
+- Checked and prepared the data for machine learning.
+- Reviewed the dataset to identify possible data quality issues.
 
-Simulated data is used for experimentation and is kept separate from real data during model evaluation.
+**3. Machine Learning – Next Steps**
+- Prepare features for the prediction model.
+- Use Linear Regression as a first model.
+- Split the dataset into training and testing sets.
+- Evaluate model performance using MAE, RMSE, and R².
+- Compare predictions with actual listing prices.
 
-## Exploratory Data Analysis (EDA)
+### Future Plans
 
-The analysis includes:
+My main goal is to predict the estimated market price of individual properties in Montenegro.
 
-- Checking missing values and duplicates
-- Exploring property prices and sizes
-- Identifying outliers
-- Comparing prices across locations
-- Visualizing relationships between features
+I also want to explore predicting general real estate price trends for the next six months. ARIMA could be used later if enough historical price data is available.
 
-## Machine Learning Models
+### Current Status
 
-The project explores two regression models:
-
-- Linear Regression
-- Random Forest Regressor
-
-Model performance will be evaluated using MAE, RMSE, and R².
-
-## Future Improvements
-
-- Collect more real estate listings
-- Improve data cleaning and feature engineering
-- Compare additional ML models
-- Develop a simple user interface
-- Explore six-month property price forecasting for Podgorica using historical data
-
-## Tools and Technologies
-
-Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Google Colab
-
-## Project Status
-
-In progress - EDA and model development
+EDA completed. Data preprocessing in progress. Machine learning modeling is the next step.
