@@ -1,4 +1,5 @@
-Valora AI – Real Estate Price Estimation in Montenegro
+Valora AI – Real Estate Price Estimation in Montenegro 
+
 Valora AI is a data science project that explores property listings in Montenegro and uses machine learning to estimate asking prices in euros.
 Project Goal
 The goal is to understand how property size, number of bedrooms, location, and property type relate to listing prices, and to build a first price prediction model.
