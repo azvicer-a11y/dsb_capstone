@@ -46,7 +46,14 @@ The application is intended to support professional valuers in their work, not r
 
 Valora AI is currently in the development and testing phase.
 
-The project uses real estate listing data collected from online platforms in Montenegro.
+### Data Collection
+
+The Valora AI project collects real estate data from two main sources:
+
+1. **Online Real Estate Platforms** – Property listings collected through web scraping, including prices, locations, property types, and sizes.
+2. **Professional Real Estate Appraisers** – Real property valuation reports provided by licensed appraisers in Montenegro.
+
+By combining online listing data with professional valuation data, the project aims to improve the accuracy and reliability of the AI model and provide more realistic property value predictions.
 
 The current work focuses on data collection, cleaning, exploratory data analysis (EDA), and testing machine learning approaches such as Linear Regression.
 
