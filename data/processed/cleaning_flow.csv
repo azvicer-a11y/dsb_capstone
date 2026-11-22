@@ -1,0 +1,13 @@
+step,rows_before,rows_after,rows_affected,kind,reason
+Exclude simulated,6913,4913,2000,provenance,Not a real advertised listing
+Exclude synthetic (generated),4913,2913,2000,provenance,Not a real advertised listing
+Exclude appraisal (reviewed label),2913,2863,50,provenance,Not a real advertised listing
+Exclude appraisal (unverified label),2863,1986,877,provenance,Not a real advertised listing
+Not an apartment (house / villa),1986,1536,450,cleaning,Different property type
+Not an apartment (unclear / commercial),1536,1473,63,cleaning,Different property type
+Misclassified type (title says house / commercial),1473,1466,7,cleaning,Misclassified property type
+"Rental listing (price < EUR 10,000)",1466,1430,36,cleaning,"Rental, not a sale"
+Data error: price conflicts with title (> 5%),1430,1428,2,cleaning,Data error
+Invalid physical value (area < 15 m2),1428,1427,1,cleaning,Invalid physical value
+"Exact re-post (identical content, different ID)",1427,1380,47,cleaning,Duplicate
+Valid but extreme listing (outside primary scope),1380,1376,4,scope,Kept in the file; only removed from the PRIMARY population (sensitivity run keeps them)

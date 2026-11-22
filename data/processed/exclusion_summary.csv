@@ -1,0 +1,8 @@
+category,real listings
+Different property type,513
+Duplicate,47
+"Rental, not a sale",36
+Misclassified property type,7
+"Valid but extreme (kept, sensitivity only)",4
+Data error,2
+Invalid physical value,1
