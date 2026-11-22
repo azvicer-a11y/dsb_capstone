@@ -1,0 +1,5 @@
+location_known_by,n,MAE,median_abs_error,mean_error (bias),median_abs_%
+explicit text,84,76352.0,30382.0,-18537.0,16.0
+platform city,134,40006.0,24188.0,-15441.0,14.0
+settlement mapping,54,66038.0,32833.0,-13931.0,16.0
+unknown,6,106383.0,88150.0,-83283.0,38.0

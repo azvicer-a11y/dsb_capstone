@@ -1,0 +1,4 @@
+version,column,known,unknown,unknown_%
+Platform city field (original),city_original,708,668,48.5
+Explicit location text,city_explicit,1087,289,21.0
+Explicit + reviewed settlements,city_clean,1343,33,2.4

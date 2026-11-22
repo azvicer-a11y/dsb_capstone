@@ -1,0 +1,51 @@
+{
+  "target": "price_eur (advertised asking price, EUR)",
+  "eligible_population": "population == 'primary' (1,376 real apartment sale listings); sensitivity: + 4 'extended only' luxury listings",
+  "feature_sets": {
+    "A: size only": [
+      "area_m2",
+      "rooms"
+    ],
+    "B: + original city": [
+      "area_m2",
+      "rooms",
+      "city_original"
+    ],
+    "C1: + explicit city": [
+      "area_m2",
+      "rooms",
+      "city_explicit"
+    ],
+    "C2: + clean city": [
+      "area_m2",
+      "rooms",
+      "city_clean"
+    ],
+    "D: clean city + engineered": [
+      "area_m2",
+      "rooms",
+      "city_clean"
+    ]
+  },
+  "groups": "repeat_group: same cleaned city + neighbourhood + price + area (probable same flat, incl. across platforms)",
+  "train_test": "GroupShuffleSplit, 80% development / 20% final test, random_state=42, applied to all 1,380 listings so the luxury rows have a fixed side; groups never split",
+  "cross_validation": "GroupKFold(n_splits=5, shuffle=True, random_state=42) on the primary development rows; the same folds for every model and baseline",
+  "tuning": "RandomizedSearchCV (12 settings, inner GroupKFold 4) nested inside each outer fold, so the CV score of a tuned model is not optimistically biased",
+  "primary_metric": "MAE in EUR; RMSE and R2 as additional metrics; all on the original price scale",
+  "selection_rule": "lowest mean CV MAE; any model within 1 standard error of the best may be chosen instead if it is simpler (complexity rank), baselines included; the test set is not used for selection",
+  "test_set_use": "every candidate is evaluated on the test set once, after the choice; the result is reported, not used to change anything",
+  "complexity_rank": {
+    "Mean baseline": 0,
+    "Median baseline": 0,
+    "City €/m² × area baseline": 1,
+    "Linear Regression": 2,
+    "Ridge (engineered)": 2,
+    "Ridge, log target (engineered)": 2,
+    "Random Forest": 3,
+    "Random Forest + FE": 3,
+    "Gradient Boosting (engineered)": 3,
+    "Gradient Boosting, log target (engineered)": 3,
+    "Tuned Random Forest": 4,
+    "Tuned Extra Trees": 4
+  }
+}

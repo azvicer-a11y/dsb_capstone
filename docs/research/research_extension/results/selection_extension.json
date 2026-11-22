@@ -1,0 +1,13 @@
+{
+  "chosen": "R0",
+  "best_cv_model": "F1",
+  "best_cv_mae": 49501.965732798984,
+  "standard_error": 1990.9144021473016,
+  "tolerance": 51492.88013494629,
+  "eligible": [
+    "R0",
+    "F1",
+    "B3",
+    "C1"
+  ]
+}

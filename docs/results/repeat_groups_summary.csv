@@ -1,0 +1,75 @@
+repeat_group,size,platforms,rooms_conflict,city
+G0074,3,Realitica Adriatic,False,Bar
+G0176,2,Realitica,False,Budva
+G0180,2,Realitica,True,Budva
+G0263,2,Realitica,False,Budva
+G0273,2,Realitica,False,Budva
+G0332,2,Realitica,False,Cetinje
+G0437,2,Realitica,True,Herceg Novi
+G0456,2,Realitica,True,Herceg Novi
+G0478,2,Realitica,False,Herceg Novi
+G0571,2,Realitica,False,Kolašin
+G0584,2,Realitica,False,Kolašin
+G0587,2,Realitica,False,Kolašin
+G0602,2,Realitica,False,Kolašin
+G0717,3,Estitor,False,Podgorica
+G0719,3,Estitor,False,Podgorica
+G0724,2,Estitor + Realitica,False,Podgorica
+G0725,3,Estitor + Realitica,False,Podgorica
+G0732,3,Estitor,False,Podgorica
+G0741,5,Estitor,False,Podgorica
+G0769,3,Estitor,False,Podgorica
+G0771,2,Estitor,False,Podgorica
+G0773,4,Estitor,False,Podgorica
+G0775,2,Estitor,False,Podgorica
+G0779,2,Estitor,False,Podgorica
+G0781,2,Estitor,False,Podgorica
+G0789,2,Estitor,False,Podgorica
+G0791,2,Estitor,False,Podgorica
+G0797,2,Estitor,False,Podgorica
+G0805,2,Estitor,False,Podgorica
+G0808,3,Estitor,False,Podgorica
+G0824,2,Estitor,False,Podgorica
+G0826,2,Estitor,False,Podgorica
+G0829,2,Estitor + Realitica,False,Podgorica
+G0840,2,Estitor,False,Podgorica
+G0852,3,Estitor + Realitica,False,Podgorica
+G0864,2,Estitor,False,Podgorica
+G0872,2,Estitor,False,Podgorica
+G0873,2,Estitor + Realitica,False,Podgorica
+G0880,3,Estitor,False,Podgorica
+G0881,2,Estitor,False,Podgorica
+G0885,2,Estitor + Realitica,False,Podgorica
+G0892,2,Estitor,False,Podgorica
+G0894,4,Estitor,False,Podgorica
+G0909,2,Estitor + Realitica,False,Podgorica
+G0910,2,Estitor + Realitica,False,Podgorica
+G0919,2,Estitor + Realitica,False,Podgorica
+G0922,2,Estitor,False,Podgorica
+G0929,2,Estitor,False,Podgorica
+G0936,2,Estitor,False,Podgorica
+G0942,2,Estitor,False,Podgorica
+G0945,2,Estitor,False,Podgorica
+G0967,2,Estitor,False,Podgorica
+G0975,2,Estitor + Realitica,False,Podgorica
+G0976,3,Estitor,False,Podgorica
+G0987,2,Estitor + Realitica,False,Podgorica
+G1001,2,Estitor,False,Podgorica
+G1003,2,Estitor,False,Podgorica
+G1013,2,Estitor,False,Podgorica
+G1018,8,Estitor + Realitica,False,Podgorica
+G1019,2,Estitor + Realitica,False,Podgorica
+G1021,2,Estitor + Realitica,False,Podgorica
+G1030,3,Estitor,False,Podgorica
+G1033,2,Estitor,False,Podgorica
+G1035,2,Estitor,False,Podgorica
+G1039,2,Estitor,False,Podgorica
+G1052,2,Estitor,False,Podgorica
+G1056,2,Estitor,False,Podgorica
+G1061,2,Realitica,False,Podgorica
+G1088,2,Estitor + Realitica,False,Podgorica
+G1093,2,Estitor + Realitica,False,Podgorica
+G1103,2,Estitor + Realitica,False,Podgorica
+G1117,2,Realitica,False,Tivat
+G1197,2,Realitica,False,Ulcinj
+G1209,2,Realitica,False,Ulcinj

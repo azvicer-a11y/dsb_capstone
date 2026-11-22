@@ -1,0 +1,6 @@
+provenance,data_source,data_origin,is_synthetic,has_url,rows
+Appraisal (reviewed label),Professional appraisal - reviewed,(empty),False,False,50
+Appraisal (unverified label),Professional appraisal - unverified,(empty),False,False,877
+Real online listing,Online listing,REAL,False,True,1986
+Simulated,Online listing,SIMULATED,False,False,2000
+Synthetic (generated),Synthetic - generated,(empty),True,False,2000

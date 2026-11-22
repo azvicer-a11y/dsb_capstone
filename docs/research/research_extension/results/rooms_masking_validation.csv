@@ -1,0 +1,4 @@
+,n,exact_match_%,MAE_rooms,MAE_rooms_weighted_to_missing_pattern
+area_bin,935.0,71.444,0.296,0.273
+learned,935.0,76.898,0.317,0.305
+median,935.0,38.075,0.655,0.675

@@ -1,0 +1,11 @@
+{
+  "chosen": "City €/m² × area baseline",
+  "best_cv_model": "City €/m² × area baseline",
+  "best_cv_mae": 50526.877022895336,
+  "standard_error": 2816.1493535402888,
+  "tolerance": 53343.02637643563,
+  "eligible": [
+    "City €/m² × area baseline",
+    "Ridge, log target (engineered)"
+  ]
+}

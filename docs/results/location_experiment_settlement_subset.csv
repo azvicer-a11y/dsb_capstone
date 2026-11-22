@@ -1,0 +1,7 @@
+model,feature_set,MAE on settlement-mapped rows (n=202),MAE on all other rows (n=896)
+Linear Regression,C1: + explicit city,71359.89692209534,51577.728633262464
+Linear Regression,C2: + clean city,69139.55242096876,52414.01993950124
+Random Forest,C1: + explicit city,76296.08661082074,52078.192470815564
+Random Forest,C2: + clean city,71593.34210001666,52540.27316245747
+City €/m² × area baseline,C1: + explicit city,68790.05476948527,47265.51308252355
+City €/m² × area baseline,C2: + clean city,65391.40610909283,47154.58257096259

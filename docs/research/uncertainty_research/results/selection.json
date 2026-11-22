@@ -1,0 +1,16 @@
+{
+  "acceptable_80": [
+    "G1",
+    "G2a",
+    "G2b",
+    "G2c",
+    "G3a",
+    "G4a",
+    "G4b"
+  ],
+  "best_interval_score": "G3a",
+  "eligible_within_1SE": [
+    "G3a"
+  ],
+  "chosen": "G3a"
+}

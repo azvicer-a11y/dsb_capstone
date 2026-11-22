@@ -1,0 +1,23 @@
+settlement,assigned_municipality,applied,mapping_rule,evidence,ambiguity_status,review_status,records_in_real_apartments,records_in_primary_population
+Đenovići,Herceg Novi,yes,single-token lokacija equals settlement name,Monstat 2023 settlement register code 212067 (Herceg Novi); seen together with 'Herceg Novi' 6x in this data,unique name in register,pending author review,45,41
+Igalo,Herceg Novi,yes,single-token lokacija equals settlement name,Monstat 2023 code 212105 (Herceg Novi); seen together with 'Herceg Novi' 1x in this data,unique name in register,pending author review,35,33
+Kumbor,Herceg Novi,yes,single-token lokacija equals settlement name,Monstat 2023 code 212148 (Herceg Novi); seen together with 'Herceg Novi' 5x in this data,unique name in register,pending author review,31,29
+Topla,Herceg Novi,yes,single-token lokacija equals settlement name,Monstat 2023 code 216704 (Herceg Novi),unique name in register,pending author review,28,28
+Bijela,Herceg Novi,yes,single-token lokacija equals settlement name,Monstat 2023 code 212032 (Herceg Novi); names that only contain the word (Bijela Crkva / Donja Bijela / Gornja Bijela / Bijela Gora) never match because only whole tokens are compared,unique exact name in register,pending author review,27,27
+Savina,Herceg Novi,yes,single-token lokacija equals settlement name,Monstat 2023 code 216682 (Herceg Novi),unique name in register,pending author review,15,14
+Baošići,Herceg Novi,yes,single-token lokacija equals settlement name,Monstat 2023 code 212024 (Herceg Novi),unique name in register,pending author review,11,11
+Meljine,Herceg Novi,yes,single-token lokacija equals settlement name,Monstat 2023 code 212172 (Herceg Novi),unique name in register,pending author review,10,10
+Njivice,Herceg Novi,yes,single-token lokacija equals settlement name,Monstat 2023 code 215643 (Herceg Novi),unique name in register,pending author review,7,7
+Kamenari,Herceg Novi,yes,single-token lokacija equals settlement name,Monstat 2023 code 216674 (Herceg Novi); seen together with 'Herceg Novi' 1x in this data,unique name in register,pending author review,6,6
+Bečići,Budva,yes,single-token lokacija equals settlement name,Monstat 2023 code 202029 (Budva); seen together with 'Budva' 5x in this data,unique name in register,pending author review,35,31
+Rafailovići,Budva,yes,single-token lokacija equals settlement name,Monstat 2023 code 216666 (Budva); seen together with 'Budva' 1x in this data,unique name in register,pending author review,14,13
+Petrovac,Budva,yes,single-token lokacija equals settlement name,Register lists 'Petrovac Centar' code 216445 (Budva) and no other Petrovac; Wikipedia: Petrovac na Moru is in Budva Municipality,unique (via Petrovac Centar),pending author review,3,3
+Sveti Stefan,Budva,yes,single-token lokacija equals settlement name,Monstat 2023 code 202312 (Budva); seen together with 'Budva' 2x in this data,unique name in register,pending author review,4,2
+Kamenovo,Budva,yes,single-token lokacija equals settlement name,Monstat 2023 code 216283 (Budva),unique name in register,pending author review,1,1
+Pržno,Budva,no,candidate only - not applied,"Monstat 2023 code 216518 (Budva) and unique in the register; it was NOT in the approved list of 15, so it is not applied",candidate addition,candidate (not applied),6,0
+Ratiševina,Herceg Novi,no,candidate only - not applied,"Monstat 2023 code 212253 (Herceg Novi) and unique in the register; it was NOT in the approved list of 15, so it is not applied",candidate addition,candidate (not applied),1,0
+Zelenika,,no,ambiguous - not applied,"Register: Herceg Novi settlement (212091), but the listings also use Zelenika as a Podgorica neighbourhood (Estitor and 'Zelenika, Podgorica')",ambiguous in this data,keep ambiguous,9,0
+Prijevor,,no,ambiguous - not applied,Two settlements with this name in the register: Budva (216496) and Herceg Novi (212237),ambiguous (two municipalities),keep ambiguous,1,0
+Luštica,,no,ambiguous - not applied,"Register settlement in Herceg Novi (212164), but Luštica is also the peninsula name and developments on the peninsula in other municipalities are advertised as Luštica",ambiguous (settlement vs peninsula),keep ambiguous,7,0
+Centar,,no,ambiguous - not applied,"Generic word 'centre': appears with Podgorica, Nikšić, Budva, Tivat and Danilovgrad in this data",ambiguous (generic word),keep ambiguous,57,0
+Gomila,,no,unknown - not applied,Not found in the Monstat 2023 settlement register,not in register,keep unknown,2,0

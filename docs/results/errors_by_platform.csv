@@ -1,0 +1,4 @@
+platform,n,MAE,median_abs_error,mean_error (bias),median_abs_%
+Estitor,75,42282.0,32812.0,-12896.0,16.0
+Realitica,197,63941.0,28000.0,-18780.0,16.0
+Realitica Adriatic,6,35213.0,9631.0,-35213.0,5.0

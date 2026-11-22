@@ -1,0 +1,5 @@
+exclusion_reason,n,outside_90,mad_flag,student_flag
+Data error: price conflicts with title (> 5%),2,2,1,0
+Invalid physical value (area < 15 m2),1,1,1,1
+Misclassified type (title says house / commercial),7,3,2,0
+"Rental listing (price < EUR 10,000)",36,36,36,36

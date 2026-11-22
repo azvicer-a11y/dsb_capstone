@@ -1,0 +1,99 @@
+=== 1. COLUMN INVENTORY (real listings, n=1,986)
+                         non_missing    pct  unique
+listing_id                      1986  100.0    1986
+izvor                           1986  100.0       3
+price_eur                       1986  100.0     639
+price_per_m2_calculated         1986  100.0    1342
+area_m2                         1986  100.0     293
+cijena_po_m2                    1986  100.0    1341
+lokacija                        1986  100.0     262
+naslov                          1986  100.0    1767
+data_origin                     1986  100.0       1
+provjera                        1986  100.0      12
+url                             1986  100.0    1986
+has_price_and_area              1986  100.0       1
+is_synthetic                    1986  100.0       1
+data_source                     1986  100.0       1
+property_type                   1984   99.9      13
+city                            1898   95.6     191
+sobe                            1454   73.2      11
+opis                             549   27.6     527
+kupatila                         386   19.4       5
+
+platform x column coverage (%):
+                    sobe  kupatila   opis  lokacija    url
+izvor                                                     
+Estitor             94.0      93.0  100.0     100.0  100.0
+Realitica           66.0       0.0    0.0     100.0  100.0
+Realitica Adriatic  90.0       0.0  100.0     100.0  100.0
+
+=== 2. PROPERTY TYPE x PLATFORM (real)
+platform         Estitor  Realitica  Realitica Adriatic   All
+property_group                                               
+Apartment            415       1028                  30  1473
+House / villa          0        346                 104   450
+Unclear / other        0         63                   0    63
+All                  415       1437                 134  1986
+
+=== 3. SALE vs RENT (real, all property types)
+price_eur        rent (<€10k)  sale   All
+property_group                           
+Apartment                  36  1437  1473
+House / villa               1   449   450
+Unclear / other             0    63    63
+All                        37  1949  1986
+
+=== 4. HOUSES: is a separate study feasible?
+real houses/villas: 450 | rents: 1 | area<30 m2 (parse/land issues): 5 | usable sale rows: 444
+rooms known: 216 | bathrooms known: 0 | real land area column available: False (land_area_m2 non-missing in real rows: 0 )
+house city coverage: {'Herceg Novi': 58, 'Bar': 49, 'Ulcinj': 47, 'Kotor': 39, 'Nikšić': 38, 'Budva': 36, 'Tivat': 32, 'Žabljak': 31, 'Cetinje': 27, 'Danilovgrad': 24, 'Unknown': 23, 'Podgorica': 22, 'Kolašin': 17, 'Berane': 1}
+house area quantiles (m2): {0.05: 70.0, 0.5: 179.0, 0.95: 443.0}
+house platform: {'Realitica': 340, 'Realitica Adriatic': 104}
+
+=== 5. APARTMENTS: coverage by city / neighbourhood (primary, n=1,376; counts only)
+city: {'Podgorica': 481, 'Budva': 234, 'Herceg Novi': 225, 'Bar': 78, 'Tivat': 74, 'Kotor': 63, 'Kolašin': 58, 'Ulcinj': 53, 'Unknown': 33, 'Cetinje': 33, 'Nikšić': 25, 'Žabljak': 16, 'Berane': 1, 'Bijelo Polje': 1, 'Danilovgrad': 1}
+sub-city places: 108, with >=10 listings: 37 (768 listings), >=20: 21
+coastal vs continental listings: {'coastal': 727, 'continental': 616, 'Unknown': 33}
+
+=== 6. FEATURES AVAILABLE WITHOUT PRICE (for clustering) - development set
+non-price features: area_m2 100% | city_clean known 97.5% | rooms known 85% | is_studio
+neighbourhood (sub-city) known: 72%
+Spearman(area, rooms) on known rooms: 0.81
+
+=== 7. DEVELOPMENT-ONLY descriptive price structure (no model)
+             count    mean     std     min     10%     50%     90%      max
+region                                                                     
+Unknown       27.0  4095.0  3089.0  1756.0  1894.0  2719.0  7419.0  13131.0
+coastal      579.0  3593.0  1318.0  1398.0  2292.0  3333.0  5208.0  11667.0
+continental  492.0  2768.0   664.0  1088.0  1941.0  2702.0  3609.0   5862.0
+within-city dispersion of €/m2 (dev, n>=20):
+               n  median_ppm  IQR/median_%     p10     p90
+city_clean                                                
+Cetinje       27      1829.0          28.0  1452.0  2187.0
+Nikšić        24      1879.0          25.0  1575.0  2279.0
+Ulcinj        45      2315.0          22.0  1882.0  3236.0
+Kolašin       41      2561.0          32.0  2025.0  3444.0
+Podgorica    389      2812.0          30.0  2205.0  3655.0
+Bar           62      2950.0          27.0  2006.0  3750.0
+Herceg Novi  180      3273.0          34.0  2414.0  5156.0
+Budva        184      3536.0          32.0  2429.0  5450.0
+Kotor         46      3748.0          35.0  2726.0  5033.0
+Tivat         62      4000.0          35.0  3276.0  7138.0
+empirical city 80% €/m2 range relative to median (p90-p10)/median %: {'Bar': 59.0, 'Budva': 85.0, 'Cetinje': 40.0, 'Herceg Novi': 84.0, 'Kolašin': 55.0, 'Kotor': 62.0, 'Nikšić': 37.0, 'Podgorica': 52.0, 'Tivat': 97.0, 'Ulcinj': 58.0}
+
+=== 8. KNOWN DATA-QUALITY LABELS (usable to validate anomaly detection)
+exclusion_reason
+(kept)                                                1380
+Not an apartment (house / villa)                       450
+Not an apartment (unclear / commercial)                 63
+Exact re-post (identical content, different ID)         47
+Rental listing (price < EUR 10,000)                     36
+Misclassified type (title says house / commercial)       7
+Data error: price conflicts with title (> 5%)            2
+Invalid physical value (area < 15 m2)                    1
+source manual check flag on kept apartments: {'OK': 1346, 'check': 30}
+
+=== 9. OTHER CANDIDATE DATA
+appraisals: 927 | property types: {'Unknown': 676, 'Apartment': 101, 'Commercial': 74, 'House': 41, 'Land': 35}
+appraisals with price & area: 137 | valuation_year known: 440
+dates for real listings: none (checked in EDA 7.9)
