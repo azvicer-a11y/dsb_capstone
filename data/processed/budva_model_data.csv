@@ -1,0 +1,81 @@
+property_id,city,neighborhood,date,area_m2,bedrooms,bathrooms,floor,construction_year,building_age_years,elevator,terrace,air_conditioning,furnished,renovated,orientation,view_type,distance_to_sea_m,distance_to_center_road_m,construction_type,building_permit,registered_encumbrance,market_value_eur,price_per_m2_eur,report_group,value_basis,appraisal_year,neighborhood_group,under_construction_at_appraisal,valuation_cluster,building_key
+P001,Budva,Rozino,2023-03-20,35,1,1,2,2008,15,1,1,1,0,0,east,courtyard,800,1100,masonry,1,0,65000.0,1857.14,G001,rounded_appraisal,2023,Rozino,0,C001,B001
+P002,Budva,Babilonija,2023-10-19,57,2,2,2,1990,33,0,1,1,0,1,southwest,neighboring_buildings,700,1150,masonry,1,1,98000.0,1719.3,G002,rounded_appraisal,2023,Babilonija,0,C002,B002
+P003,Budva,Rafailovići,2026-02-20,45,1,1,1,2025,1,1,1,1,0,0,east,sea,160,4500,frame,1,0,178839.0,3974.2,G003,allocated_appraisal,2026,Rafailovići,0,C003,B003
+P004,Budva,Rafailovići,2026-02-20,47,1,1,1,2025,1,1,1,1,0,0,east,sea,160,4500,frame,1,0,186787.4,3974.2,G003,allocated_appraisal,2026,Rafailovići,0,C003,B003
+P005,Budva,Rafailovići,2026-02-20,39,1,1,3,2025,1,1,1,1,0,0,east,sea,160,4500,frame,1,0,154993.8,3974.2,G003,allocated_appraisal,2026,Rafailovići,0,C003,B003
+P006,Budva,Petrovac,2026-02-11,50,2,1,3,2007,19,0,1,1,0,0,east,sea,350,17000,masonry,1,0,121000.0,2420.0,G004,rounded_appraisal,2026,Petrovac,0,C004,B004
+P007,Budva,Rozino,2026-10-20,48,1,1,4,2024,2,1,1,1,0,0,east,urban,900,1050,frame,1,0,147000.0,3062.5,G005,rounded_appraisal,2026,Rozino,0,C005,B005
+P008,Budva,Bečići,2026-07-22,103,2,2,3,2015,11,1,1,1,0,0,east,urban,400,4500,frame,1,0,301000.0,2922.33,G006,rounded_appraisal,2026,Bečići,0,C006,B006
+P010,Budva,Sveti Stefan,2026-05-26,90,3,2,0,2014,12,1,1,1,0,0,east,sea,90,10000,masonry,1,0,210000.0,2333.33,G008,rounded_appraisal,2026,Sveti Stefan,0,C008,B008
+P011,Budva,Prijevor - Seoce,2026-02-14,61,2,1,0,2014,12,1,1,1,0,0,east,urban,450,4200,masonry,1,0,102000.0,1672.13,G009,rounded_appraisal,2026,Prijevor - Seoce,0,C009,B009
+P012,Budva,Old Bakery,2026-02-14,86,3,2,3,2020,6,1,1,1,0,0,east,urban,900,950,frame,1,0,234000.0,2720.93,G010,rounded_appraisal,2026,Old Bakery,0,C010,B010
+P013,Budva,Rozino,2026-03-07,92,2,2,0,2006,20,1,1,1,0,0,east,urban,900,1050,masonry,1,0,212000.0,2304.35,G011,combined_apartment_appraisal,2026,Rozino,0,C011,B011
+P014,Budva,Petrovac,2026-04-10,99,2,2,0,2000,26,0,1,1,0,0,east,sea,480,17000,masonry,1,0,148000.0,1494.95,G012,rounded_appraisal,2026,Petrovac,0,C012,B012
+P015,Budva,Bečići,2026-08-18,105,2,2,3,2008,18,0,1,1,0,0,east,urban,500,3200,masonry,1,0,223000.0,2123.81,G013,rounded_appraisal,2026,Bečići,0,C013,B013
+P016,Budva,Bečići,2026-03-02,58,2,1,3,2025,1,1,1,1,0,0,east,urban,600,4500,frame,1,0,152000.0,2620.69,G014,rounded_appraisal,2026,Bečići,0,C014,B014
+P017,Budva,Sveti Stefan,2026-05-26,131,4,2,1,2014,12,1,1,1,0,0,east,sea,150,8500,masonry,1,0,409000.0,3122.14,G015,rounded_appraisal,2026,Sveti Stefan,0,C008,B008
+P018,Budva,Zavala,2026-04-23,76,2,1,4,2014,12,1,1,1,0,0,east,sea,200,2200,masonry,1,0,323307.8,4254.05,G016,allocated_appraisal,2026,Zavala,0,C015,B015
+P019,Budva,Zavala,2026-04-23,190,3,2,4,2014,12,1,1,1,0,0,east,sea,200,2200,masonry,1,0,737000.0,3878.95,G016,rounded_appraisal,2026,Zavala,0,C015,B015
+P020,Budva,Bečići,2026-08-18,62,2,1,3,2015,11,1,1,1,0,0,east,urban,250,3200,frame,1,0,163000.0,2629.03,G017,rounded_appraisal,2026,Bečići,0,C016,B006
+P021,Budva,Bečići,2026-06-23,65,1,1,2,2015,11,1,1,1,0,0,east,urban,550,3200,frame,1,0,81000.0,1246.15,G018,rounded_appraisal,2026,Bečići,0,C017,B006
+P022,Budva,Budva,2026-09-07,58,2,1,4,2014,12,1,1,1,0,0,east,urban,700,1100,masonry,1,0,172000.0,2965.52,G019,rounded_appraisal,2026,Budva,0,C018,B016
+P023,Budva,Bečići,2026-03-02,100,2,2,3,2015,11,0,1,1,0,0,east,sea,150,3200,frame,1,0,234000.0,2340.0,G020,rounded_appraisal,2026,Bečići,0,C019,B006
+P024,Budva,Rafailovići,2026-04-10,73,2,1,1,2025,1,1,1,1,0,0,east,sea,160,4500,frame,1,0,239000.0,3273.97,G021,rounded_appraisal,2026,Rafailovići,0,C020,B003
+P025,Budva,Rozino,2022-07-05,55,2,1,2,2012,10,1,1,1,0,0,east,urban,900,1050,masonry,1,0,89000.0,1618.18,G022,rounded_appraisal,2022,Rozino,0,C021,B017
+P026,Budva,Babilonija,2022-11-25,35,1,1,1,1990,32,0,1,1,0,0,east,urban,550,1150,masonry,1,0,43000.0,1228.57,G023,rounded_appraisal,2022,Babilonija,0,C022,B002
+P027,Budva,Rozino,2022-02-25,50,1,1,2,2012,10,1,1,1,0,0,east,urban,900,1050,masonry,1,0,71500.0,1430.0,G024,rounded_appraisal,2022,Rozino,0,C023,B017
+P028,Budva,Budva,2022-06-09,24,0,1,3,2014,8,1,0,1,0,0,east,urban,700,1100,masonry,1,0,47106.74,1962.78,G025,allocated_appraisal,2022,Budva,0,C024,B016
+P029,Budva,Budva,2022-06-09,47,1,1,4,2014,8,1,1,1,0,0,east,urban,700,1100,masonry,1,0,90751.11,1930.87,G025,allocated_appraisal,2022,Budva,0,C024,B016
+P030,Budva,Babin Do,2022-02-10,151,3,2,0,2017,5,1,1,1,0,0,east,urban,750,800,frame,1,0,335000.0,2218.54,G026,rounded_appraisal,2022,Babin Do,0,C025,B018
+P031,Budva,Rafailovići,2022-07-11,42,1,1,0,2025,0,1,1,1,0,0,east,sea,160,4500,frame,1,0,69000.0,1642.86,G027,rounded_appraisal,2022,Rafailovići,1,C026,B003
+P032,Budva,Old Bakery,2021-04-20,30,0,1,3,2020,1,1,1,1,0,0,east,urban,900,950,frame,1,0,45000.0,1500.0,G028,rounded_appraisal,2021,Old Bakery,0,C027,B010
+P033,Budva,Centar,2022-08-12,117,3,2,3,2000,22,0,1,1,0,0,east,urban,250,200,masonry,1,0,482000.0,4119.66,G029,rounded_appraisal,2022,Centar,0,C028,B019
+P034,Budva,Bečići,2022-03-15,43,1,1,3,2015,7,1,1,1,0,0,east,urban,420,3200,frame,1,0,70000.0,1627.91,G030,rounded_appraisal,2022,Bečići,0,C029,B006
+P035,Budva,Centar,2022-10-09,45,1,1,3,2000,22,0,1,1,0,0,east,urban,250,200,masonry,0,0,137000.0,3044.44,G031,conditional_legalization_appraisal,2022,Centar,0,C030,B019
+P036,Budva,Podkošljun,2022-03-06,37,1,1,1,2012,10,1,1,1,0,0,east,urban,620,1350,masonry,1,0,63000.0,1702.7,G032,rounded_appraisal,2022,Podkošljun,0,C031,B020
+P037,Budva,Adok,2022-06-06,51,1,1,3,2014,8,1,1,1,0,0,east,urban,700,1200,masonry,1,0,73000.0,1431.37,G033,rounded_appraisal,2022,Adok,0,C032,B021
+P038,Budva,Old Bakery,2021-12-22,41,1,1,3,2020,1,1,1,1,0,0,east,urban,900,950,frame,1,0,64500.0,1573.17,G034,rounded_appraisal,2021,Old Bakery,0,C033,B010
+P039,Budva,Podkošljun,2021-07-19,28,0,1,1,2012,9,1,0,1,0,0,east,urban,620,1350,masonry,1,0,43500.0,1553.57,G035,rounded_appraisal,2021,Podkošljun,0,C034,B020
+P040,Budva,Rozino,2021-05-25,40,1,1,2,2012,9,1,1,1,0,0,east,urban,900,1050,masonry,1,0,64500.0,1612.5,G036,rounded_appraisal,2021,Rozino,0,C035,B017
+P041,Budva,Rafailovići,2023-08-07,53,1,1,1,2025,0,1,1,1,0,0,east,sea,160,4500,frame,1,0,90000.0,1698.11,G037,rounded_appraisal,2023,Rafailovići,1,C036,B003
+P042,Budva,Bečići,2023-06-01,94,3,2,3,2015,8,1,1,1,0,0,east,urban,420,3200,frame,1,0,148000.0,1574.47,G038,rounded_appraisal,2023,Bečići,0,C037,B006
+P043,Budva,Dubovica,2023-04-07,77,2,1,3,2014,9,1,1,1,0,0,east,urban,1200,1500,masonry,1,0,300000.0,3896.1,G039,rounded_appraisal,2023,Dubovica,0,C038,B022
+P044,Budva,Mainski put,2023-09-15,52,1,1,0,1996,27,0,1,1,0,1,east,urban,650,750,masonry,1,0,116000.0,2230.77,G040,rounded_appraisal,2023,Mainski put,0,C039,B023
+P045,Budva,Rozino,2023-03-28,75,2,1,2,2012,11,1,1,1,0,0,east,urban,900,1050,masonry,1,0,165000.0,2200.0,G041,rounded_appraisal,2023,Rozino,0,C040,B017
+P046,Budva,Bečići,2023-04-07,44,1,1,3,2015,8,1,1,1,0,0,east,urban,420,3200,frame,1,0,84000.0,1909.09,G042,rounded_appraisal,2023,Bečići,0,C041,B006
+P047,Budva,Bečići,2023-06-27,38,1,1,3,2015,8,1,1,1,0,0,east,urban,420,3200,frame,1,0,71000.0,1868.42,G043,rounded_appraisal,2023,Bečići,0,C042,B006
+P048,Budva,Bečići,2023-06-14,64,2,1,3,2015,8,1,1,1,0,0,east,urban,420,3200,frame,1,0,131000.0,2046.88,G044,rounded_appraisal,2023,Bečići,0,C043,B006
+P049,Budva,Centar,2023-11-09,104,3,2,3,2000,23,0,1,1,0,0,east,urban,250,200,masonry,1,0,319000.0,3067.31,G045,rounded_appraisal,2023,Centar,0,C044,B019
+P050,Budva,Dubovica Lux,2023-08-31,65,2,1,0,2014,9,1,1,1,0,0,east,urban,1150,1450,masonry,1,0,125000.0,1923.08,G046,rounded_appraisal,2023,Dubovica,0,C045,B022
+P051,Budva,Mainski put,2025-03-28,65,2,1,0,1996,29,0,1,1,0,0,east,urban,650,750,masonry,1,0,135000.0,2076.92,G047,rounded_appraisal,2025,Mainski put,0,C046,B023
+P052,Budva,Rafailovići,2025-11-29,94,3,2,1,2018,7,1,1,1,0,0,east,sea,160,4500,masonry,1,0,170000.0,1808.51,G048,rounded_appraisal,2025,Rafailovići,0,C047,B024
+P053,Budva,Elmosove zgrade,2025-12-15,62,2,1,3,1980,45,0,1,1,0,1,east,urban,750,1200,masonry,1,0,140000.0,2258.06,G049,rounded_appraisal,2025,Elmosove zgrade,0,C048,B025
+P054,Budva,Gospoština,2025-03-20,107,2,2,6,2006,19,1,1,1,0,0,east,urban,300,450,masonry,1,0,170000.0,1588.79,G050,rounded_appraisal,2025,Gospoština,0,C049,B026
+P055,Budva,Old Bakery,2025-11-03,29,0,1,3,2020,5,1,0,1,0,0,east,urban,900,950,masonry,1,0,86000.0,2965.52,G051,rounded_appraisal,2025,Old Bakery,0,C050,B010
+P056,Budva,Obilaznica,2025-12-29,61,1,1,1,2012,13,1,1,1,0,0,east,urban,900,1100,masonry,1,0,149000.0,2442.62,G052,rounded_appraisal,2025,Obilaznica,0,C051,B027
+P057,Budva,Podkošljun,2025-07-11,71,2,1,-1,2022,3,1,1,1,0,0,east,urban,620,1350,masonry,1,0,121000.0,1704.23,G053,rounded_appraisal_review,2025,Podkošljun,0,C052,B028
+P058,Budva,Dubovica Lux,2025-03-16,59,2,1,0,2014,11,1,1,1,0,0,east,urban,1150,1450,masonry,1,0,130000.0,2203.39,G054,rounded_appraisal,2025,Dubovica,0,C053,B022
+P059,Budva,Bečići,2025-05-05,46,1,1,3,2006,19,0,1,1,0,0,east,urban,420,3200,masonry,1,0,91000.0,1978.26,G055,rounded_appraisal_review,2025,Bečići,0,C054,B029
+P060,Budva,Bečići – named complex,2025-05-20,37,1,1,7,2021,4,1,1,1,0,0,east,urban,450,3300,masonry,1,0,99000.0,2675.68,G056,rounded_appraisal,2025,Bečići,0,C055,B030
+P061,Budva,Babilonija,2025-09-03,51,2,1,0,1990,35,0,1,1,0,1,east,urban,550,1150,masonry,1,0,109000.0,2137.25,G057,rounded_appraisal,2025,Babilonija,0,C056,B002
+P062,Budva,Babin Do,2025-10-21,66,2,1,0,2006,19,0,1,1,0,0,east,urban,750,800,masonry,1,0,157000.0,2378.79,G058,rounded_appraisal,2025,Babin Do,0,C057,B031
+P063,Budva,Bečići,2025-04-01,41,2,1,3,2010,15,1,1,1,0,0,east,urban,420,3200,masonry,1,0,100000.0,2439.02,G059,rounded_appraisal,2025,Bečići,0,C058,B032
+P064,Budva,Elmosove zgrade,2025-01-28,56,2,1,3,1980,45,0,1,1,0,0,east,urban,750,1200,masonry,1,0,60000.0,1071.43,G060,rounded_appraisal_review,2025,Elmosove zgrade,0,C059,B025
+P065,Budva,Rafailovići,2025-01-29,102,2,2,9,2025,0,1,1,1,0,0,east,sea,160,4500,frame,1,0,490000.0,4803.92,G061,rounded_appraisal,2025,Rafailovići,0,C060,B003
+P066,Budva,Obilaznica,2025-04-07,44,1,1,2,2006,19,0,1,1,0,0,east,urban,900,1100,masonry,1,0,140000.0,3181.82,G062,rounded_appraisal,2025,Obilaznica,0,C061,B033
+P067,Budva,Podmaine,2025-06-02,50,1,1,3,2010,15,1,1,1,0,0,east,urban,1400,1800,masonry,1,0,84000.0,1680.0,G063,rounded_appraisal,2025,Podmaine,0,C062,B034
+P068,Budva,Bečići,2025-04-01,37,1,1,5,2025,0,1,1,1,0,0,east,urban,420,3200,masonry,1,0,86000.0,2324.32,G064,rounded_appraisal_review,2025,Bečići,0,C063,B014
+P069,Budva,Podkošljun,2025-07-23,53,1,1,1,2005,20,0,1,1,0,0,east,urban,650,1350,masonry,1,1,101000.0,1905.66,G065,rounded_appraisal,2025,Podkošljun,0,C064,B035
+P070,Budva,Centar,2025-01-21,64,2,1,4,2014,11,1,1,1,1,0,east,urban,150,200,frame,1,0,219000.0,3421.88,G066,rounded_appraisal,2025,Centar,0,C065,B036
+P071,Budva,Podkošljun,2025-09-15,57,2,1,4,2012,13,1,1,1,0,0,east,urban,600,1350,masonry,1,1,137000.0,2403.51,G067,rounded_appraisal,2025,Podkošljun,0,C066,B020
+P072,Budva,Golubovina,2025-04-08,62,3,1,3,2008,17,0,1,1,0,0,east,urban,850,1100,masonry,1,1,172000.0,2774.19,G068,rounded_appraisal,2025,Golubovina,0,C067,B037
+P073,Budva,Obilaznica,2025-06-27,47,1,1,4,2018,7,1,1,1,1,0,east,urban,900,1100,frame,1,0,154000.0,3276.6,G069,rounded_appraisal,2025,Obilaznica,0,C068,B038
+P074,Budva,Rozino,2025-02-03,85,2,2,3,2015,10,1,1,1,0,0,east,urban,950,1050,frame,1,1,220000.0,2588.24,G070,rounded_appraisal,2025,Rozino,0,C069,B039
+P075,Budva,Bečići,2025-03-06,68,1,1,4,2021,4,1,1,1,0,0,east,sea,450,3200,frame,1,0,162000.0,2382.35,G071,rounded_appraisal,2025,Bečići,0,C070,B030
+P076,Budva,Old Bakery,2025-06-05,69,2,1,0,2020,5,1,1,1,0,0,east,courtyard,900,950,frame,1,1,191000.0,2768.12,G072,rounded_appraisal,2025,Old Bakery,0,C071,B010
+P077,Budva,Centar,2025-09-15,76,2,1,2,1985,40,0,1,1,0,0,east,urban,250,200,masonry,1,1,214000.0,2815.79,G073,rounded_appraisal,2025,Centar,0,C072,B040
+P078,Budva,Bulevar / Nivel,2023-12-12,103,2,2,1,2017,6,1,1,1,0,0,east,urban,400,50,frame,1,0,305880.29,2969.71,G074,allocated_appraisal,2023,Bulevar / Nivel,0,C073,B041
+P079,Budva,Bulevar / Nivel,2023-12-12,117,2,2,2,2017,6,1,1,1,0,0,southwest,neighboring_buildings,400,50,frame,1,0,330083.44,2821.23,G075,allocated_appraisal,2023,Bulevar / Nivel,0,C073,B041
+P080,Budva,Bulevar / Nivel,2023-12-12,112,2,3,2,2017,6,1,1,1,0,0,east,sea,400,50,frame,1,1,332607.69,2969.71,G076,allocated_appraisal,2023,Bulevar / Nivel,0,C073,B041
+P081,Budva,Bečići,2023-12-19,51,2,1,0,2010,13,0,1,1,0,0,east,neighboring_buildings,300,150,frame,0,1,91000.0,1784.31,G077,rounded_appraisal,2023,Bečići,0,C074,B032
